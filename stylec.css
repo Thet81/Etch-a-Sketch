@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',monospace,sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.grid-container {
+    border: 2px solid black;
+    height: 800px;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.div-item {
+    border:1px solid black;
+}
+
+.div-item:hover{
+    background-color: gray;
+}
+
+.generate,
+.clear
+ {
+    padding:8px 15px;
+    border: none;
+    border-radius:8px ;
+    margin:8px;
+    font-size: 20px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.generate{
+    background-color: plum;
+}
+
+.clear {
+    background-color: red;
+}
+
+.btn-container {
+    display:flex;
+    margin:10px;
+}
